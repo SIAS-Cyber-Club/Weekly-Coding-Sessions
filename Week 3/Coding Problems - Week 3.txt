@@ -1,0 +1,63 @@
+﻿WEEK 3 PROBLEMS
+___________________________________________________________________________________
+
+
+Problem 1: Date Format
+
+
+Create a function that converts a date formatted as MM/DD/YYYY to YYYYMMDD.
+Notes : Return value should be a string.
+
+
+Examples:
+
+format_date("11/12/2019") ➞ "20191112"
+
+format_date("12/31/2019") ➞ "20191231"
+
+format_date("01/15/2019") ➞ "20190115"
+
+___________________________________________________________________________________
+
+Problem 2: Friday the 13th
+
+Given the month and year as numbers, return whether that month contains a Friday 13th. 
+January will be given as 1, February as 2, and so on. Some resources on Python's 
+datetime module : https://www.w3schools.com/python/python_datetime.asp 
+
+
+Examples:
+
+has_friday_13(3, 2020) ➞ True
+
+has_friday_13(10, 2017) ➞ True
+
+has_friday_13(1, 1985) ➞ False
+
+
+___________________________________________________________________________________
+
+
+Problem 3: Insert Interval
+
+
+Given a set of non-overlapping intervals, insert a new interval into the intervals 
+(merge if necessary). You may assume that the intervals were initially sorted 
+according to their start times.
+
+
+Example 1:
+
+Input:  intervals = [[1,3],[6,9]], newInterval = [2,5]
+Output:  [[1,5],[6,9]]
+Explanation: Because the new interval [2,5] overlaps with both [1,3] and [6,9].
+
+
+Example 2:
+
+Input: digits =  [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+Output:  [[1,2],[3,10],[12,16]]
+Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
+
+___________________________________________________________________________________
+
